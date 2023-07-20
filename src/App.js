@@ -15,6 +15,7 @@ function Square() {
 }
 
 export default function Board() {
+    const [square, setSquares] = useState(Array(9).fill(null));
   return (
   <React.Fragment>
     <div className="board-row">
